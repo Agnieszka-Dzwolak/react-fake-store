@@ -8,7 +8,9 @@ const Header = ({ title }) => {
       <Toolbar>
         <Box sx={{ flexGrow: 1 }}>
           <Typography
-            variant="h4"
+            variant="h3"
+            marginTop={4}
+            marginBottom={4}
             component="div"
             sx={{ flexGrow: 1, color: "#ffffff", textAlign: "center" }}
           >

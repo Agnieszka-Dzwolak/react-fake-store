@@ -16,13 +16,13 @@ const Item = ({ cosmetic }) => {
         component="img"
         alt={cosmetic.title}
         height="330"
-        image={cosmetic.images}
+        image={cosmetic.images[0]}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" minHeight="70px">
           {cosmetic.title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" minHeight="130px">
           {cosmetic.description}
         </Typography>
       </CardContent>
@@ -53,6 +53,13 @@ const Item = ({ cosmetic }) => {
   );
 };
 
-Item.propTypes = {};
+Item.propTypes = {
+  cosmetic: PropTypes.shape({
+    title: PropTypes.string,
+    images: PropTypes.array,
+    description: PropTypes.string,
+    price: PropTypes.number,
+  }),
+};
 
 export default Item;

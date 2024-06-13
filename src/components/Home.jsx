@@ -31,11 +31,7 @@ const Home = () => {
               secondary:
                 "Indulge in our exquisite selection of perfumes and colognes, perfect for any occasion.",
             },
-            {
-              primary: "Home Decoration",
-              secondary:
-                "Transform your living space with our stylish and unique home decor items that reflect your personal taste.",
-            },
+
             {
               primary: "Skin Care",
               secondary:
@@ -46,16 +42,7 @@ const Home = () => {
               secondary:
                 "Elevate your style with our chic and functional handbags, perfect for every occasion.",
             },
-            {
-              primary: "Women's Dresses",
-              secondary:
-                "Find the perfect dress for any event, from casual outings to glamorous parties.",
-            },
-            {
-              primary: "Women's Jewelry",
-              secondary:
-                "Add a touch of sparkle to your ensemble with our stunning collection of jewelry.",
-            },
+
             {
               primary: "Women's Shoes",
               secondary:

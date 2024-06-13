@@ -25,29 +25,51 @@ const Navbar = () => {
             Beauty
           </Button>
 
+          <Button
+            component={NavLink}
+            to="/fragrances"
+            sx={{ color: "#fff", "&.active": { fontWeight: "bold" } }}
+          >
+            Fragrances
+          </Button>
+
+          <Button
+            component={NavLink}
+            to="/skinCare"
+            sx={{ color: "#fff", "&.active": { fontWeight: "bold" } }}
+          >
+            Skin Care
+          </Button>
+
+          <Button
+            component={NavLink}
+            to="/womensBags"
+            sx={{ color: "#fff", "&.active": { fontWeight: "bold" } }}
+          >
+            Women's Bags
+          </Button>
+
+          <Button
+            component={NavLink}
+            to="/womensShoes"
+            sx={{ color: "#fff", "&.active": { fontWeight: "bold" } }}
+          >
+            Women's Shoes
+          </Button>
+
+          <Button
+            component={NavLink}
+            to="/womensWatches"
+            sx={{ color: "#fff", "&.active": { fontWeight: "bold" } }}
+          >
+            Women's Watches
+          </Button>
+
           {/* <li>
-          <NavLink to="/fragrances">Fragrances</NavLink>
-        </li>
-        <li>
-          <NavLink to="/homeDecoration">Home Decoration</NavLink>
-        </li>
-        <li>
-          <NavLink to="/skinCare">Skin Care</NavLink>
-        </li>
-        <li>
-          <NavLink to="/womensBags">Women's Bags</NavLink>
-        </li>
-        <li>
           <NavLink to="/womensDresses">Women's Dresses</NavLink>
         </li>
         <li>
           <NavLink to="/womensJewelry">Women's Jewelry</NavLink>
-        </li>
-        <li>
-          <NavLink to="/womensShoes">Women's Shoes</NavLink>
-        </li>
-        <li>
-          <NavLink to="/womensWatches">Women's Watches</NavLink>
         </li> */}
         </Box>
       </Toolbar>
